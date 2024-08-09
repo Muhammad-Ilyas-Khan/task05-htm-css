@@ -212,6 +212,26 @@ i {
     color: rgba(24, 20, 100, 0.5);
 }
 
+/* footer section */
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: -40px;
+    background-color: #5896c9;
+}
+footer img {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.all-rights {
+    text-align: center;
+    padding-top: 20px;
+    color: #292626b5;
+}
+
 
 
 /* small screens */
@@ -321,6 +341,7 @@ i {
         text-align: center;
         font-size: 15px;
     }
+
     
 }
 
@@ -443,6 +464,22 @@ i {
      }
      .smart-watches p {
         font-size: 2vh;
+     }
+
+     /* footer */
+     footer {
+        margin-top: 50px;
+     }
+     footer img {
+        width: 15px;
+        height: 15px;
+        padding: 7px;
+        
+     }
+     .all-rights {
+        font-size: 2vh;
+        padding-top: 20px;
+       
      }
 }
 
